@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900" rel="stylesheet" />
+
+   <link rel="stylesheet" href="style/dist/general.css" />
+   <link rel="stylesheet" href="style/dist/main.css" />
+
+   <title>Fileditor</title>
+</head>
+
+<body>
+   <div class="form">
+      <img src="img/fly-txt.png" alt="" class="fly fly_1">
+      <img src="img/fly-txt1.png" alt="" class="fly fly_2">
+      <h2 class="form-title">FilEditor <img src="img/logo.png" id="logo"></h2>
+
+      <div class="login-form form-item visible">
+         <input type="text" id="log__in__login" placeholder="Login" class="input" />
+         <input type="password" id="log__in__password" placeholder="•••••••••••••••••••••••" class="input" />
+         <button class="button" id="log__in__btn">Log in</button>
+         <span class="registr-text">Don`t have an account? <a href="#" class="link" id="go-to-registr"> Create </a>
+         </span>
+      </div>
+
+      <div class="registration-form form-item hidden">
+         <div class="return-to-auth">
+            <img src="img/return-to-auth.png" alt="" id="return-btn">
+         </div>
+         <input type="text" id="registr__login" placeholder="Login" class="input" />
+         <input type="password" id="registr__password" placeholder="•••••••••••••••••••••••" class="input" />
+         <button class="button" id="registr__btn">Registration</button>
+      </div>
+   </div>
+   <main class="wrapper none">
+      <section class="files">
+         <div class="file-form">
+            <input type="text" class="input" placeholder="Filename" id="file-input">
+            <button class="button" id="file-add-btn">Add</button>
+         </div>
+         <!-- <h2 class="empty">There are no files here</h2> -->
+         <div class="files-container">
+            <!-- <div class="file-item">
+               <div class="file-content">
+                  <img src="img/fly-txt1.png" alt="">
+                  <span>File.txt</span>
+               </div>
+               <div class="file-item-form">
+                  <textarea name="" id="" ></textarea>
+                  <button class="button"> Изменить</button>
+               </div>
+            </div> -->
+         </div>
+      </section>
+      <div class="background-items">
+         <div class="light x1"></div>
+         <div class="light x2"></div>
+         <div class="light x3"></div>
+         <div class="light x4"></div>
+         <div class="light x5"></div>
+         <div class="light x6"></div>
+         <div class="light x7"></div>
+         <div class="light x8"></div>
+         <div class="light x9"></div>
+      </div>
+   </main>
+   <script src="scripts/main.js"></script>
+</body>
+
+</html>
